@@ -1,0 +1,80 @@
+<!--Esse é o HTML do formulario-->
+
+<!DOCTYPE html>
+<meta charset="UTF-8">
+
+<head>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/formluario.css">
+</head>
+
+<body>
+	<header>
+		<h1>Espaço Terapeutico Amor e Luz</h1>
+	</header>
+
+	<main>
+		<h1>Curso de Barra de Access</h1>
+		<br>
+		<p>A barra de access é uma técnica energética e corporal, que por meio de toques terapêuticos em pontos
+			específicos da cabeça contribui com o processo de mudança na vida. Assim, elimina bloqueios, crenças,
+			pensamentos e comportamentos negativos de nossas vidas. </p>
+		<br>
+		<p>Cada ponto do corpo possui registros de milhares de informações limitantes, que impedem o funcionamento
+			normal que qualquer situação na vida deveria ter. Assim, quando a terapeuta ativa as barras, inicia-se a
+			liberação destes registros, que nos ajuda a ver além dos problemas que costumamos passar.</p>
+		<br>
+		<p>A terapia da barra de access tem ajudado milhares de pessoas com ansiedade, depressão, emagrecimento, dores e
+			compulsões. Colaborando principalmente para uma nova visão de vida de um modo geral e amplo. </p>
+		<br>
+
+
+
+		<form>
+			<div class="formluario">
+				<label for="nomesobrenome">Nome e sobrenome:</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required required
+					placeholder="digite seu nome...">
+
+
+				<label for="email">Email:</label>
+				<input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+
+				<label for=telefone>Telefone:</label>
+				<input type="text" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+
+				<label for=CPF>Digite o seu CPF:</label>
+				<input type="text" id="CPF" class="input-padrao" required placeholder="000.000.000-00">
+
+				<label for=logradouro>Logradouro:</label>
+				<input type="text" id="logradouro" class="input-padrao" required
+					placeholder="Ex: Rua são gabriel, num 6868">
+
+				<label for=cidade>Cidade:</label>
+				<input type="text" id="cidade" class="input-padrao" required placeholder="ex: Tapejara-RS">
+
+				<h3>Selecione a form de pagamento:</h3>
+
+				<div class="custom-radio">
+					<input id="radio-1" name="question" checked value="1" type="radio">
+					<label for="radio-1"> Dinheiro</label>
+				  </div>
+				  
+				  <div class="custom-radio">
+					<input id="radio-2" name="question" value="0" type="radio">
+					<label for="radio-2"> Cartão</label>
+				  </div>
+
+				<div class="custom-checkbox">
+					<input id="checkbox-1" checked type="checkbox">
+					<label for="checkbox-1">Quero Participar!</label>
+				</div>
+
+			</div>
+			<input type="submit" value="Enviar formulário" class="enviar">
+		</form>
+	</main>
+
+</body>
