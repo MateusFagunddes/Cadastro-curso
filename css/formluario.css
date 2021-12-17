@@ -2,7 +2,7 @@
 body{
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    background-color: #ffffff;
 }
 
 header{
@@ -43,16 +43,38 @@ main{
 
 
 
-main h1, h2{
+main h1{
     text-align: center;
     font-size: 3em;
     font-style: bold;
+    color: rgba(0, 0, 0, 0.404);
+
+}
+
+main h2{
+    text-align: center;
+    font-size: 3em;
+    font-style: bold;
+    
+    background-image: linear-gradient(45deg, rgb(250, 244, 156), rgb(222, 172, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
 
 main p{
     text-indent: 3em;
     font-size: 2em;
     color: rgba(0, 0, 0, 0.404);
+    
+    
+}
+
+main hr{
+    border: none;
+    border-radius: 1px;
+    background-image: linear-gradient(45deg, rgb(250, 244, 156), rgb(222, 172, 255));
+    height: 0.3vh;
 }
 
 form{
@@ -71,6 +93,7 @@ form label, input {
 
 form label{
     margin-left: -0.5em;
+    color: rgba(0, 0, 0, 0.404);
 }
 
 form input{
