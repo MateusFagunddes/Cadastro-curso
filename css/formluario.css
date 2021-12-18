@@ -31,7 +31,8 @@ header h1{
 main img{
     padding: 0%;
     width: 90vw;
-    height: auto;
+    
+    
 }
 
 main{
@@ -71,9 +72,6 @@ main hr{
     height: 0.3vh;
 }
 
-img{
-    width: 90vw;
-}
 
 form h2{
     text-align: center;
@@ -94,8 +92,8 @@ form hr{
     height: 0.3vh;
 }
 
-#img-click:checked ~ #form{
-    margin-top: 5em;
+.parallax{
+    background-attachment: fixed;
 }
 
 form{
