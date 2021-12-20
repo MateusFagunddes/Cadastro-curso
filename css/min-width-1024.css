@@ -92,12 +92,10 @@
     
     form h2{
         text-align: center;
-        font-size: 1.5em;
+        font-size: 3em;
         font-style: bold;
         
-        background-image: linear-gradient(45deg, rgb(250, 244, 156), rgb(222, 172, 255));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: rgba(0, 0, 0, 0.301);
         
     }
     
@@ -122,7 +120,6 @@
         margin-top: 1em;
         width: 50vw;
 
-        background-color: rgba(83, 83, 83, 0);
         border-radius: 1rem;
         border-width: 0.1em;
         border-style: solid;
