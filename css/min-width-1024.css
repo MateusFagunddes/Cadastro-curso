@@ -18,6 +18,8 @@
         height: 10vh;
         background-image: linear-gradient(45deg, rgb(250, 244, 156), rgb(222, 172, 255));
         width: 100%;
+
+        
     }
     
     header h1{
@@ -65,6 +67,8 @@
         border-radius: 1px;
         background-image: linear-gradient(45deg, rgb(250, 244, 156), rgb(222, 172, 255));
         height: 0.3vh;
+
+        
     }
 
     .conteudo img{
@@ -105,11 +109,10 @@
         border-radius: 1px;
         background-image: linear-gradient(45deg, rgb(250, 244, 156), rgb(222, 172, 255));
         height: 0.3vh;
+
+        
     }
     
-    .parallax{
-        background-attachment: fixed;
-    }
     
     form{
         position: absolute;
@@ -121,17 +124,19 @@
         width: 50vw;
 
         border-radius: 1rem;
-        border-width: 0.1em;
+        border-color: blanchedalmond;
         border-style: solid;
-        border-inline-end-color: rgb(250, 244, 156);
-        border-inline-start-color: rgb(222, 172, 255) ;
-        border-block-end-color: rgb(250, 244, 156);
-        border-block-start-color: rgb(222, 172, 255);   
+        background-image: linear-gradient(45deg, #fff, #fff); 
+
+        transition-property:background-image, border-radius;
+        transition-duration: 2s, 2s;
+
     }
 
     form:hover{
-        transition-timing-function: 0.3s;
+        border-radius: 2em;
         background-image: linear-gradient(45deg, rgba(250, 244, 156, 0.500), rgba(222, 172, 255, 0.500));
+        
     }
     
     form label, input {
@@ -162,7 +167,8 @@
         border-width: 0.1px;
         border-color: rgba(0, 0, 0, 0.322);
     
-    
+
+
     }
 
     form input:hover{
@@ -228,5 +234,7 @@
         border: none;
         padding: 1px;
       }
+
+    
 }
   

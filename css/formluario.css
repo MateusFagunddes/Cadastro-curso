@@ -17,6 +17,8 @@ header{
     height: 10vh;
     background-image: linear-gradient(45deg, rgb(250, 244, 156), rgb(222, 172, 255));
     width: 100%;
+
+    
 }
 
 header h1{
@@ -70,11 +72,10 @@ header h1{
     border-radius: 1px;
     background-image: linear-gradient(45deg, rgb(250, 244, 156), rgb(222, 172, 255));
     height: 0.3vh;
-}
 
 
-form h2{
-    text-align: center;
+    background-size: 200% 200%;
+    animation: cnter;
     font-size: 3em;
     font-style: bold;
     
@@ -88,6 +89,9 @@ form hr{
     border-radius: 1px;
     background-image: linear-gradient(45deg, rgb(250, 244, 156), rgb(222, 172, 255));
     height: 0.3vh;
+
+
+    
 }
 
 .parallax{
@@ -106,6 +110,8 @@ form{
     border-width: 0.1em;
     border-style: solid;
     border-color: black;
+
+    
 }
 
 form label, input {
@@ -136,7 +142,7 @@ form input{
     border-width: 0.1px;
     border-color: rgba(0, 0, 0, 0.322);
 
-
+    
 }
 
 form ::placeholder{
@@ -188,4 +194,4 @@ form ::placeholder{
 #form{
     margin-bottom: 5em;
 }
-  
+
