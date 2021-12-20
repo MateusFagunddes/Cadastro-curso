@@ -43,7 +43,7 @@ header h1{
     height: fit-content;
     padding: 20px;
     padding-bottom: 10vh;
-
+    margin-bottom: 15vw;
 }
 
 
@@ -78,9 +78,7 @@ form h2{
     font-size: 3em;
     font-style: bold;
     
-    background-image: linear-gradient(45deg, rgb(250, 244, 156), rgb(222, 172, 255));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgba(0, 0, 0, 0.301);
     
 }
 
@@ -97,8 +95,17 @@ form hr{
 }
 
 form{
-    padding-top: 5em;
     margin-left: 1.5em;
+
+    min-width: fit-content;
+    max-width: 95vw;
+    height: fit-content;
+
+    background-image: linear-gradient(45deg, rgba(250, 244, 156, 0.500), rgba(222, 172, 255, 0.500));
+    border-radius: 1rem;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: black;
 }
 
 form label, input {
