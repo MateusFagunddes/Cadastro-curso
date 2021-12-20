@@ -28,14 +28,14 @@ header h1{
     align-self: center;
 }
 
-main img{
+.conteudo img{
     padding: 0%;
     width: 90vw;
     
     
 }
 
-main{
+.conteudo{
     position: relative;
     top: 13vh;
     margin: 2em;
@@ -48,7 +48,7 @@ main{
 
 
 
-main h1{
+.conteudo h1{
     text-align: center;
     font-size: 3em;
     font-style: bold;
@@ -57,7 +57,7 @@ main h1{
 }
 
 
-main p{
+.conteudo p{
     text-indent: 3em;
     font-size: 2em;
     color: rgba(0, 0, 0, 0.404);
@@ -65,7 +65,7 @@ main p{
     
 }
 
-main hr{
+.conteudo hr{
     border: none;
     border-radius: 1px;
     background-image: linear-gradient(45deg, rgb(250, 244, 156), rgb(222, 172, 255));
@@ -98,6 +98,7 @@ form hr{
 
 form{
     padding-top: 5em;
+    margin-left: 1.5em;
 }
 
 form label, input {
@@ -111,7 +112,7 @@ form label, input {
 }
 
 form label{
-    margin-left: -0.5em;
+    margin-left: 0.5em;
     color: rgba(0, 0, 0, 0.301);
 
 }
@@ -177,5 +178,7 @@ form ::placeholder{
     padding: 1px;
   }
 
-
+#form{
+    margin-bottom: 5em;
+}
   

@@ -4,7 +4,7 @@
     }
     
     body{
-        height: 100vh;
+        height: fit-content;
         font-family: Arial, Helvetica, sans-serif;
         background-color: #ffffff;
     }
@@ -30,7 +30,7 @@
     }
 
 
-    main{
+    .conteudo{
         position: relative;
         top: 8vh;
         margin: 2em;
@@ -42,7 +42,7 @@
     
     
     
-    main h1{
+    .conteudo h1{
         text-align: center;
         font-size: 2em;
         font-style: bold;
@@ -51,7 +51,7 @@
     }
     
     
-    main p{
+    .conteudo p{
         text-align: center;
         text-indent: 2em;
         font-size: 1em;
@@ -60,20 +60,21 @@
         
     }
     
-    main hr{
+    .conteudo hr{
         border: none;
         border-radius: 1px;
         background-image: linear-gradient(45deg, rgb(250, 244, 156), rgb(222, 172, 255));
         height: 0.3vh;
     }
 
-    main img{
+    .conteudo img{
         width: 400px;
         height: 300px;
     }
 
 
     .conteudo{
+        display: flex;
         position: absolute;
         left: 50%;
         top: 10%;
@@ -115,18 +116,26 @@
     form{
         position: absolute;
         left: 50%;
-        top: 100vh;
+        top: 88vh;
         transform: translatex(-50%);
         padding-top: 1em;
         margin-top: 1em;
-        
 
         width: 50vw;
         background-color: rgba(83, 83, 83, 0);
         border-radius: 1rem;
         border-width: 0.1em;
         border-style: solid;
-        border-color:rgb(222, 172, 255);
+        border-inline-start-color: rgb(250, 244, 156);
+        border-inline-end-color: rgb(222, 172, 255) ;
+        border-block-start-color: rgb(250, 244, 156);
+        border-block-end-color: rgb(222, 172, 255) ;
+        
+    }
+
+    form:hover{
+        transition-timing-function: 0.3s;
+        background-image: linear-gradient(45deg, rgba(250, 244, 156, 0.500), rgba(222, 172, 255, 0.500));
     }
     
     form label, input {
@@ -159,6 +168,13 @@
     
     
     }
+
+    form input:hover{
+        transition: 0.4s;
+        background-image: linear-gradient(45deg, rgb(250, 244, 156), rgb(222, 172, 255));
+        padding: 0.6em;
+        
+    }
     
     form ::placeholder{
         text-transform: lowercase;
@@ -173,6 +189,13 @@
         padding: 0.5em;
         color: rgba(0, 0, 0, 0.24);
         background-image: linear-gradient(45deg, rgb(250, 244, 156), rgb(222, 172, 255));
+    }
+
+    .enviar:hover{
+        transition: 0.3s;
+        background-image: linear-gradient(-45deg, rgb(250, 244, 156), rgb(222, 172, 255));
+        padding: 0.7em;
+        
     }
     
     .custom-checkbox input,
@@ -205,9 +228,6 @@
         border: none;
         padding: 1px;
       }
-    
-    
-      
-
-
+    }
+  
   }
