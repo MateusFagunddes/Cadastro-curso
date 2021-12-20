@@ -89,14 +89,17 @@ form hr{
     border-radius: 1px;
     background-image: linear-gradient(45deg, rgb(250, 244, 156), rgb(222, 172, 255));
     height: 0.3vh;
-
-
-    
+ 
 }
 
-.parallax{
-    background-attachment: fixed;
+form h2{
+    text-align: center;
+    font-size: 3em;
+    font-style: bold;
+    color: rgba(0, 0, 0, 0.301);
+
 }
+
 
 form{
     margin-left: 1.5em;
