@@ -189,12 +189,16 @@
         padding: 0.5em;
         color: rgba(0, 0, 0, 0.24);
         background-image: linear-gradient(45deg, rgb(250, 244, 156), rgb(222, 172, 255));
+        width: 10vw;
     }
 
     .enviar:hover{
         transition: 0.3s;
         background-image: linear-gradient(-45deg, rgb(250, 244, 156), rgb(222, 172, 255));
         padding: 0.7em;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        color: rgb(250, 244, 156);
         
     }
     
